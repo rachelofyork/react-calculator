@@ -1,0 +1,17 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4em;
+  font-size: 1.4em;
+  font-weight: bold;
+  background-color: teal;
+  color: black;
+  flex: 1;
+  outline: 1px solid black;
+}
+
+.operator {
+  background-color: blueviolet;
+  color: aliceblue;
+}

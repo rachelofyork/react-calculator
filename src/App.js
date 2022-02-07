@@ -1,6 +1,7 @@
 
 import React, { Component } from "react";
 import "./App.css";
+import { Footer } from "./components/Footer";
 import { Button } from "./components/Button";
 import { Input } from "./components/Input";
 import { ClearButton } from "./components/ClearButton";
@@ -24,7 +25,8 @@ handleEqual = () => {
 
   render(){
   return (
-    <div className="App">
+    <div className="wrapper-for-footer">
+      <div className="App">
      <div className="container">
        <Input input={this.state.input} />
       <div className="row">
@@ -56,6 +58,9 @@ handleEqual = () => {
 <ClearButton handleClear={()=> this.setState({input: ""})}>Clear</ClearButton>
       </div>
     </div>
+    
+    </div>
+     <Footer />
     </div>
 
   );

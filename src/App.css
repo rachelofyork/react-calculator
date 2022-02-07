@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 67vh;
   width: 100%;
+  margin-top: 80px;
 }
 
 .container {
@@ -13,9 +14,4 @@
 .row {
   display: flex;
   width: 100%;
-}
-
-Footer {
-  text-align: center;
-  padding-top: 5px;
 }

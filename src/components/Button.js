@@ -10,7 +10,10 @@ import "./Button.css";
 
 
 export const Button = props => (
-<div className={`button-container ${isOperator(props.children) ? null : "operator"}`}>
+<div className={`button-container ${isOperator(props.children) ? null : "operator"
+}`}
+onClick={() => props.handleClick(props.children)}
+>
     {props.children}
 </div>
 )
